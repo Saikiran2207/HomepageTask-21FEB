@@ -1,0 +1,119 @@
+<html>
+
+    <head>
+    <title>Homepage</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    </head>
+    <body>
+        <center>
+        <h3><b>Our mission is to organize the world’s information and make it universally accessible and useful</b></h3>
+                </center>
+    <div class="container">
+        <div class="left">
+            <img class="img" src="https://assets.entrepreneur.com/content/3x2/2000/20150805204041-google-company-building-corporate.jpeg" width="500" height="350" alt="Company Image">
+        
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Google LLC (/ˈɡuːɡəl/ ⓘ) is an American multinational technology company focusing on artificial intelligence,[9] online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, and consumer electronics. It has been referred to as "the most powerful company in the world"[10] and as one of the world's most valuable brands due to its market dominance, data collection, and technological advantages in the field of artificial intelligence.[11][12][13] Google's parent company Alphabet Inc. is one of the five Big Tech companies, alongside Amazon, Apple, Meta, and Microsoft.<br>
+<br>
+Google was founded on September 4, 1998, by American computer scientists Larry Page and Sergey Brin while they were PhD students at Stanford University in California. Together they own about 14% of its publicly listed shares and control 56% of its stockholder voting power through super-voting stock. The company went public via an initial public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly owned subsidiary of Alphabet Inc. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's internet properties and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet.<br><br>
+                    The company has since rapidly grown to offer a multitude of products and services beyond Google Search, many of which hold dominant market positions. These products address a wide range of use cases, including email (Gmail), navigation (Waze & Maps), cloud computing (Cloud), web browsing (Chrome), video sharing (YouTube), productivity (Workspace), operating systems (Android), cloud storage (Drive), language translation (Translate), photo storage (Photos), video calling (Meet), smart home (Nest), smartphones (Pixel), wearable technology (Pixel Watch & Fitbit), music streaming (YouTube Music), video on demand (YouTube TV), artificial intelligence (Google Assistant & Gemini), machine learning APIs (TensorFlow), AI chips (TPU), and more. Discontinued Google products include gaming (Stadia), Glass, Google+, Reader, Play Music, Nexus, Hangouts, and Inbox by Gmail.[15][16]
+                
+                </p>
+                <h2>Contact Us</h2>
+                <div>
+                <a href="https://www.google.com/">Google Website</a><br>
+                    <b>Email ID: support-in@google.com</b><br>
+                    <b>Contact No: 1-800-419-0157</b>
+                </div>
+            </div>
+        </div>
+    
+        <div class="right">
+            <div class="register">
+                <h2>Register</h2>
+                <form action="action_page.php">
+         <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name..."><br>
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name..."><br>
+            
+            
+            <label for="email">Email ID</label>
+            <input type="text" id="email" name="email" placeholder="Enter your Email id..."><br>
+            
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter your Mobile Number..."> 
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </form>
+            </div>
+            <div class="location">
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3806.0270681735105!2d78.36998367578026!3d17.458418500753755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1708583938480!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="video">
+                <h2>Company Video</h2>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/Z-pT0XDYvDM" title="Inside Google&#39;s Massive Headquarters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </div>
+        
+        </body>
+    <style>
+        
+.container {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 20px;
+    background-color: lavender;
+    
+}
+
+.left {
+   /* flex: 1;
+    margin-right: 10px;*/
+   
+}
+
+.right {
+    /*flex: 1;
+    
+    display: flex;
+    flex-direction: column;*/
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.register, .location, .video, input[type=text], select, textarea {
+    /*background-color: aqua;*/
+    width: 100%;
+            padding: 5px;
+            border: 1px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+    
+}
+        .img{
+             border-radius: 30px;
+        }
+        .img:hover{
+             border-radius: 70px;
+            box-shadow: 20px 25px 30px;
+        }
+    </style>
+</html>
